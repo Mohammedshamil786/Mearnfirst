@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <style>
+    nav {
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.5rem 3.5rem;
+        background-color:grey;
+        box-shadow: 0 3px 5px rgba(4, 223, 190, 0.1);
+    }
+    nav h1 {
+  color:black;
+}
+
+nav a {
+  color:peru;
+  font-size:25px;
+}
+nav a:hover {
+  color:black;
+ }
+
+nav ul {
+  display: flex;
+  gap: 1.9rem;
+}
+
+nav ul li {
+  font-weight:bold;
+}
+.button-menu {
+  color:black;
+  font-size:20px;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  display: none;
+}
+.me{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5;
+  max-width: 68.75;
+  margin: auto;
+  background-color:cadetblue;
+}
+.me img {
+  height: 44.5rem;
+  width: 37.5rem;
+  border-radius:275px;
+}
+
+.bio {
+  width: 25rem;
+  padding:25px;
+  border-radius: 6px;
+  box-shadow: 0px 2px 15px 2px;
+  color:black;
+  background-color:grey;
+  margin: 15px;
+}
+
+.bio h1 {
+  margin-bottom:100px;
+}
+
+.bio p {
+  line-height:normal;
+  padding:30px;
+}
+.more-about {
+  background-color:cadetblue;
+  padding: 1rem 6rem;
+}
+
+.more-about h2 {
+  margin-bottom:5px;
+  text-align: center;
+}
+
+.more-about p {
+  line-height:normal;
+  padding: 0.4px;
+  font-size: large;
+  width:35;
+  padding:25px;
+  border-radius:none;
+  /* box-shadow: 0px 2px 15px 2px; */
+  color:black;
+  background-color:grey;
+  margin: 30px;
+}
+</style>
+</head>
+<body>
+    <nav>
+        <h1>MOHAMMED SHAMIL</h1>
+        <ul class="navigation">
+            <li ><a href="#about" class="nav-link">About</a></li>
+            <li ><a href="#skills" class="nav-link">Skills</a></li>
+            <li ><a href="#projects" class="nav-link">Projects</a></li>
+            <li ><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="button-menu" id="button-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+    <section class="me" id="about">
+        <img src="./IMG_20230213_130751.jpg" alt="" class="me-img"/>
+        
+         <div class="bio animate__animated animate__shakeX">
+          <h2 class="bio-title">About Me</h2>
+          <p class="bio-text">
+            Hello, I'm Shamil a open source enthusiast from malappuram,kerala <br><br>I persuied my Bachelors Degree from University of calicut in Computer Application. <br>I'm a passionate web designer with a strong focus on creating immersive digital experinces.with a keen eye for aesthtics and a love for intuitive user interfaces, <br><br>I strive to craft visually stunning websites that deliver seamless functionality.
+          </p>
+        </div>
+  </section>
+  <section class="more-about">
+    <h2>More About Me</h2>
+    <p>
+     Myself  Mohammed Shamil From Malappuram,Kerala And Am a BCA Graduate In The Year 2023 And I Have Basic Knowledge In Programming Languages And I Have Done Some Projects Like Tourism Guide Using Python Django And I Done Some Web Designings Like Facebook Login Page And Created My Own Portfolio And I Persuied My Bachelors Degree from University of Calicut . <br>I'm A Passionate Web Designer With A Strong Focus On Creating Immersive Digital Experinces.With A Keen Eye For Aesthtics And A Love For Intuitive User Interfaces,After My Degree I Started To Learn MEARN Stack From Luminar Technolab Calicut
+    </p>
+</section>
+</body>
+</html>
